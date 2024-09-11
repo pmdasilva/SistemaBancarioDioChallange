@@ -1,4 +1,5 @@
 from limpaTela import clear
+from deposito import Deposito
 from rich import print
 
 class menu_opcoes():
@@ -25,8 +26,7 @@ class menu_opcoes():
                         print(f'Extrato')
                         break
                     elif entrada_usuario == 2:
-                        print(f'Deposito')
-                        break
+                        return Deposito().iniciar()
                     elif entrada_usuario == 3:
                         print(f'Saque')
                         break
