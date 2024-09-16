@@ -15,10 +15,6 @@ Aqui estarei fazendo um desafio proposto no final do modulo introdutório de Pyt
 ## Tecnologia utilizadas no projeto
 
 * OPP(Orientação a objetos)
-* Pandas
-* Numpy
-* SQlite
-* Datetime
 * Rich
 
 
